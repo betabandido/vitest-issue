@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ESNext",
+    "jsx": "react",
+    /* Modules */
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    /* Emit */
+    "declaration": false,
+    "importHelpers": true,
+    /* Interop Constraints */
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Type Checking */
+    "strict": true,
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "packages/*/dist",
+    "packages/*/src/**/*.test.ts",
+    "packages/*/node_modules",
+    "packages/*/vitest.config.ts"
+  ]
+}
